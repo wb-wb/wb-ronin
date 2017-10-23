@@ -53120,7 +53120,7 @@ scripts = [
 	(assign, "$adimi_tool_archer_limit_value", 40),#In % 0-100
 	(assign, "$adimi_tool_cav_limit_value", 40),#In % 0-100
 	(assign, "$adimi_tool_min_num_players_for_class_limit", 12), # Class limits will not be active unless the server population is greater than or equal to this value
-	(assign, "$adimi_tool_estimated_server_pop"), # Gets an estimate of the number of players on the server by multiplying ":total_players_in_team_x" * 2. Used In Check Troop Limit
+	(assign, "$adimi_tool_estimated_server_pop", 0), # Gets an estimate of the number of players on the server by multiplying ":total_players_in_team_x" * 2. Used In Check Troop Limit
 	(assign, "$adimi_tool_admin_start_teleport", 0),#
 	(assign, "$adimi_tool_mof",0),
 	(assign, "$adimi_tool_wnl_mof",1),#NEEDS CLIENT/ADMIN SYNC  wnl mof flag 2min before end
